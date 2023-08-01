@@ -78,3 +78,4 @@ Test app created for [Docker Crash Course for Absolute Beginners [NEW]](https://
   - `docker ps -a` for ALL containers (running OR STOPPED)
 - `docker pull nginx:1.23` pulls img from DockerHub
 - `docker stop <container_id>` to stop container vs `docker run`
+- ".dockerignore" is important similar to ".gitignore"
