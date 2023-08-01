@@ -2,6 +2,6 @@
   "name": "docker-test-app",
   "version": "0.01",
   "dependencies": {
-    "express": "4.18.2"
+    "express": "^4.18.2"
   }
 }
