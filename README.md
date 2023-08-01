@@ -3,10 +3,9 @@ Test app created for [Docker Crash Course for Absolute Beginners [NEW]](https://
 
 ![Screen Shot 2023-08-01 at 2 10 04 PM](https://github.com/joFolta/docker-test/assets/40876495/a66316dc-95e1-4913-9274-3843462ed2b7)
 
-(To run app locally (VS in a Docker container) `node src/server.js`)
-
-
 [Download Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+(To run app locally (VS in a Docker container) `node src/server.js`)
 
 ----------------
 
@@ -16,6 +15,7 @@ Test app created for [Docker Crash Course for Absolute Beginners [NEW]](https://
 ### FROM 
 - e.g. `FROM node:19-alpine`
 - build from this base image
+- get base images from DockerHub: https://hub.docker.com/
 - "Set the baseImage to use for subsequent instructions. FROM must be the first instruction in a Dockerfile.
     - FROM baseImage
     - FROM baseImage:tag
